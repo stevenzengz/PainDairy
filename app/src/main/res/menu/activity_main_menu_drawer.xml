@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainMenu"
+            android:title="Main Menu" />
+    </group>
+
+    <item android:title="Record">
+        <menu>
+            <item
+                android:id="@+id/nav_recordCreate"
+                android:title="Create Record" />
+            <item
+                android:id="@+id/nav_recordModify"
+                android:title="Modify Record" />
+        </menu>
+    </item>
+
+    <item android:title="Report">
+        <menu>
+            <item
+                android:id="@+id/nav_reportWeather"
+                android:title="Pain-Weather Report" />
+            <item
+                android:id="@+id/nav_reportLocation"
+                android:title="Pain-Location Report" />
+        </menu>
+    </item>
+
+    <item android:title="Service">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:title="Nearby Hospital" />
+        </menu>
+    </item>
+
+</menu>

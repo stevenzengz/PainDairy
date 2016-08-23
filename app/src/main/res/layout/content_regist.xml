@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="monash.fit5046.assign.assignmentpaindiary.RegistActivity"
+    tools:showIn="@layout/activity_regist">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textAlignment="center"
+                android:text="Join Pain Diary!"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textAlignment="center"
+                android:text="Sign up to get daily pain record"/>
+
+            <EditText
+                android:id="@+id/ra_et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Username"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="14dp"/>
+
+            <!-- Modify 24/04/2016: registration need to register a new patient with registration information -->
+            <EditText
+                android:id="@+id/ra_et_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="First Name"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Last Name"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Address"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="DoB"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Height"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Weight"
+                android:textSize="14dp"/>
+
+            <EditText
+                android:id="@+id/ra_et_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:hint="Occupation"
+                android:textSize="14dp"/>
+
+            <Spinner
+                android:id="@+id/ra_sp_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/gender_arrays"
+                android:paddingBottom="16dp"
+                android:textSize="14sp"/>
+
+            <Spinner
+                android:id="@+id/ra_sp_clinic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textSize="14dp"/>
+
+            <Spinner
+                android:id="@+id/ra_sp_doctors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textSize="14dp"/>
+
+            <Button
+                android:id="@+id/ra_et_regist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

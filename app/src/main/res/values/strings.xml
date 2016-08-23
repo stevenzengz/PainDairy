@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AssignmentPainDiary</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Gender in user registration -->
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- Pain Location in record create -->
+    <string-array name="painlocation_arrays">
+        <item>Back</item>
+        <item>Neck</item>
+        <item>Head</item>
+        <item>Knees</item>
+        <item>Hips</item>
+        <item>Abdomen</item>
+        <item>Elbows</item>
+        <item>Shoulders</item>
+        <item>Shins</item>
+        <item>Jaw and Facial</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Weather variables in report location -->
+    <string-array name="reportWeather_arrays">
+        <item>temperature</item>
+        <item>humidity</item>
+        <item>windspeed</item>
+        <item>atmosphericpressure</item>
+    </string-array>
+
+    <!-- Google Map API Key -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDFJPuDcWpx4HfuxuMHE08Nmh2kp9eMTcE</string>
+</resources>
